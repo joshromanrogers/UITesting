@@ -1,6 +1,8 @@
 # UITesting
 
-To run tests: `npm test`
+To run tests:
+1. install dependencies `npm i`
+2. run tests `npm test`
 
 -- Proof of concept --
 
