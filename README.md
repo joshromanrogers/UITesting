@@ -1,5 +1,9 @@
 # UITesting
 
+To run tests:
+1. install dependencies `npm i`
+2. run tests `npm test`
+
 -- Proof of concept --
 
 User flows with the highest traffic within pod website from Google Analytics data, during January:
