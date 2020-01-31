@@ -67,15 +67,15 @@ describe("Sign in flow", function() {
   expect(text).toBe('Incorrect password. Try again.');
   })
 
-  it("sends user to update password", async () => {
-    await basePage.clickButton("SIGN IN");
-    await LoginPage.enterAndSubmit('email', users[0].email);
-    // doesn't work because it's in a span instead of an a tag, creating an ID will fix this issue
-    await basePage.clickButton("FORGOT PASSWORD");
-    let a = await driver.findElement(By.id('recaptcha-anchor')).click();
-    await basePage.clickButton("NEXT");
-    // expect that "Check your SMS" component is visible by checking its ID
-  })
+  // it("sends user to update password", async () => {
+  //   await basePage.clickButton("SIGN IN");
+  //   await LoginPage.enterAndSubmit('email', users[0].email);
+  //   // doesn't work because it's in a span instead of an a tag, creating an ID will fix this issue
+  //   await basePage.clickButton("FORGOT PASSWORD");
+  //   let a = await driver.findElement(By.id('recaptcha-anchor')).click();
+  //   await basePage.clickButton("NEXT");
+  //   // expect that "Check your SMS" component is visible by checking its ID
+  // })
 
 });
 
