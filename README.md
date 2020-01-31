@@ -1,5 +1,7 @@
 # UITesting
 
+To run tests: `npm test`
+
 -- Proof of concept --
 
 User flows with the highest traffic within pod website from Google Analytics data, during January:
